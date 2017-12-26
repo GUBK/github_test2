@@ -1,0 +1,10 @@
+<h1>내 게시판</h1>
+<p>게시판 메인창입니다</p>
+<%= link_to "새글쓰기", "/posts/new" %>
+
+<% @posts.each do |post| %>
+  <div>
+    <%= link_to post.title, "/posts/#{post.id}" %>
+    <%= post.content %>
+  </div>
+<% end %>
