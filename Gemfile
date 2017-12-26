@@ -46,6 +46,7 @@ group :development do
   gem 'rails_db'
   gem 'pry-rails'
   gem 'awesome_print'
+  gem 'meta_request'
   # gem 'better_errors'
   # gem 'binding_of_caller'
 end
